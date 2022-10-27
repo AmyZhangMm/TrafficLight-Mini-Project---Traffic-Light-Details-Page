@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+/* 1. The navigation bar */
+
+#navigation {
+    margin: 20px 50px;
+}
+/* adjust the font-size and margin of the nav item lists */
+.navbar-menu ul li {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+/* Design of the currency-converter calculator */
+.currency-converter {
+  text-align: justify; /* keep the 2 lines of <p> texts in the left alignment*/
+  color:white; 
+  padding:8px 15px;
+  line-height: 28px;
+  max-width: 220px;
+}
+
+
+#invigation img {
+  width: 40px;
+  object-fit:cover;
+}
+
+
+#nav-border {
+  width: 100%;
+  border-bottom: 4px solid rgb(116, 185, 11);
+}
+
+
+
+/* keep the home log in the center alignment
+and with the setting of the width and height/*/
+.home_logo {
+  display: block;
+  margin-left: auto;
+  height: 50px;
+  width: 50px;
+}
+/* 1. The end of the Navbar*/
+/***************************/
+
+
+
+
+
+/* 2. Breadcrumb Navigation */
+
+.sub-nav{
+    display: flex;
+    justify-content:space-between;
+    margin:55px 50px 40px 50px; 
+    border-bottom:3px solid rgb(233, 232, 232);
+  
+}
+
+.light-nav {
+    display:flex; 
+    font-weight:bold; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div img {
+    margin-right: 15px;
+}
+
+/* Style the list */
+  .breadcrumb ul{
+    list-style: none;
+  }
+  
+  /* Display list items side by side */
+  .breadcrumb ul li {
+    display: inline;
+    font-weight: bold;
+  }
+  
+  /* Add a greater than sign (>) before/behind each list item */
+  .breadcrumb ul li+li:before {
+    padding: 8px;
+    color: black;
+  }
+  
+  /* Add a color to all links inside the list */
+  .breadcrumb ul li a {
+    color: rgb(177, 173, 173);
+    text-decoration: none;
+  }
+
+  .breadcrumb ul li::before {
+    content: ">";
+    margin-left: 6px;
+   
+  }
+  
+  .breadcrumb ul li:first-child:before {
+    display: none;
+  }
+  /* Add a color on mouse-over 
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+  } */
+
+  /* 2.The end of the Breadcrumb Navigation*/
+  /*****************************************/
+
+
+
+
+  /* 3. The Images / Texts */
+
+  .images-two { 
+    display:flex;
+    width: 70%;
+    margin: auto;
+}
+
+  .images-text {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    line-height: 30px;
+  }
+
+  .images-two-second {
+    width: 35px !important;
+    height:35px !important;
+  }
+  .text-title {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  /* 3. The end of the Images/Texts*/
+  /*********************************/
+
+
+
+  
+  /* 4. Footer */
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:lightgray;
+    padding: 20px 50px 10px 80px;
+    color:gray;
+    font-size: 17px;
+    margin-top: 50px;
+  }
+
+  /* The end of Footer */
+  /*********************/
